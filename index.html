@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COUNT 30 — 言ったら負けゲーム</title>
+<style>
+  :root{
+    --bg:#0a0a14; --card:#13131f; --tint:#5ea8ff; --gold:#ffd700;
+    --text:#e8e8f0; --muted:#9a9aae; --line:rgba(255,255,255,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;
+    line-height:1.8; padding:24px; -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:760px; margin:0 auto}
+  header{padding:64px 0 40px; text-align:center}
+  .logo{
+    font-size:48px; font-weight:900; color:var(--tint);
+    text-shadow:0 0 36px rgba(94,168,255,.5); letter-spacing:1px;
+  }
+  .sub{color:var(--muted); font-size:14px; letter-spacing:3px; margin-top:10px}
+  .tagline{
+    font-size:20px; font-weight:800; margin:28px 0 8px; color:var(--text);
+  }
+  section{
+    background:var(--card); border:1px solid var(--line);
+    border-radius:18px; padding:26px; margin-bottom:16px;
+  }
+  h2{font-size:17px; font-weight:800; color:var(--tint); margin-bottom:14px}
+  p{font-size:14.5px; margin-bottom:12px}
+  ul{padding-left:20px}
+  li{font-size:14.5px; margin-bottom:8px}
+  a{color:var(--tint); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .muted{color:var(--muted); font-size:13px}
+  .links{display:flex; gap:12px; flex-wrap:wrap; margin-top:8px}
+  .links a{
+    background:rgba(94,168,255,.12); border:1px solid rgba(94,168,255,.3);
+    padding:12px 20px; border-radius:12px; font-weight:700; font-size:14px;
+  }
+  footer{text-align:center; padding:32px 0; color:var(--muted); font-size:12px}
+  nav{display:flex; gap:16px; justify-content:center; margin-top:18px; font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">COUNT 30</div>
+    <div class="sub">言ったら負けゲーム</div>
+    <div class="tagline">「30」を言ったら、負け。</div>
+    <p class="muted">1から順に数字を足していき、30を言わされた方が敗者。<br>シンプルなのに奥が深い、究極の心理戦。</p>
+  </header>
+
+  <section>
+    <h2>ゲームの特徴</h2>
+    <ul>
+      <li>🤖 5段階のCPU難易度（初級〜「神」レベルの完全必勝読み）</li>
+      <li>📱 1台でパスしながら遊ぶローカル対戦</li>
+      <li>🌐 世界中のプレイヤーと戦うオンライン対戦</li>
+      <li>🏆 Game Center 連携のレーティング＆ランキング</li>
+      <li>✨ 手に響く触覚フィードバックと美しいUI</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>サポート・お問い合わせ</h2>
+    <p>本アプリに関するご質問・不具合のご報告は、以下までご連絡ください。</p>
+    <p>開発者：ITSUKI ASANO<br>
+    メール：<a href="mailto:あなたの連絡先メール@example.com">あなたの連絡先メール@example.com</a></p>
+    <p class="muted">※ 上記メールアドレスは実際の連絡先に置き換えてください。</p>
+  </section>
+
+  <section>
+    <h2>規約・ポリシー</h2>
+    <div class="links">
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="terms.html">利用規約</a>
+    </div>
+  </section>
+
+  <footer>© 2026 COUNT 30. All rights reserved.</footer>
+</div>
+</body>
+</html>
